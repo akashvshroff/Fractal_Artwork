@@ -28,7 +28,7 @@ def main(branch_length):
     my_turtle.backward(200)
     my_turtle.down()
     draw_tree(branch_length, my_turtle)
-    my_win.exitonclick()
+    turtle.mainloop()
 
 
 main(100)

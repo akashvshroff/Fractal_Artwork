@@ -18,7 +18,8 @@ def draw_curve(length, t, depth):
 def main():
     '''
     A function that draws a simple koch curve based on the following L-System notation:
-    F ? F+F--F+F -> where F means draw forward, + is turn left(60), - is turn right(60)
+    F ? F+F--F+F -> where F means draw forward, + is turn left(60), - is turn right(60).
+    The function recurses based on the depth which dictates the detail of the curve and thus the snowflake.
     '''
     my_turtle = turtle.Turtle()
     screen = turtle.Screen()

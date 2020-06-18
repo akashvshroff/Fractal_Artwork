@@ -19,7 +19,7 @@ def main(branch_length):
     '''
     my_turtle = turtle.Turtle()
     my_win = turtle.Screen()
-    # my_turtle.speed(30)
+    my_turtle.speed(30)
     my_win.bgcolor("black")
     my_win.title("Fractal Tree")
     my_turtle.color("white")

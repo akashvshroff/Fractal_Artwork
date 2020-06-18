@@ -23,10 +23,11 @@ def main():
     It is called thrice in order to draw the 3 sides of a equilateral triangle.
     '''
     l = 360
+    depth = 4
     my_turtle = turtle.Turtle()
     screen = turtle.Screen()
     screen.bgcolor('black')
-    screen.title('Koch Curve')
+    screen.title('Fractal Snowflake')
     my_turtle.up()
     my_turtle.backward(180)
     my_turtle.left(90)
@@ -34,9 +35,9 @@ def main():
     my_turtle.right(90)
     my_turtle.down()
     my_turtle.color('white')
-    my_turtle.speed(30)
+    my_turtle.speed(60)
     for i in range(3):
-        draw_curve(l, my_turtle, 4)
+        draw_curve(l, my_turtle, depth)
         my_turtle.right(120)
     turtle.mainloop()
 
